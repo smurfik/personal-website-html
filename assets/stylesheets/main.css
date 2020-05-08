@@ -1,38 +1,39 @@
 /* * { outline: 1px pink solid } */
+body {
+  background: white;
+  font-family: 'Jost', sans-serif;
+}
 
 a:hover { text-decoration:none; }
 
-svg {
-  color: #A9A9A9;
+#social-links {
+  width: 250px;
+  margin: 0em auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-svg:hover {
+i {
+  color: #767676;
+  transition: 0.5s color linear;
+}
+
+#social-links i:hover {
   color: #823b51;
 }
 
-body {
-  background: white;
-}
-
-img {
+.profile-pic {
   display: block;
   height: 200px;
   width: 200px;
-  margin: 10em auto 0px auto;
+  margin: 7em auto 0px auto;
   border-radius: 100%;
   padding: 4px;
-  border: 1px solid #ddd;
+  border: 2px solid #CDB0B9;
 }
 
 h1 {
   text-align: center;
-  margin: 0.3em auto;
-  color: #3e3d3d;
-}
-
-#social-links {
-  width: 200px;
-  margin: 0em auto;
-  display: flex;
-  justify-content: space-evenly;
+  margin: 0.1em auto;
+  color: #823b51;
 }
